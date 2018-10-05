@@ -106,14 +106,13 @@ et y ajouter les fichiers utiles.
 
 * Contribuer
 
-Vos contributions sont les bienvenues :
+Vos contributions sont les bienvenues sous forme d'/issues/ ou de /pull
+request/ - quelques pistes :
 
-- Pour tester le script sur tout système d'exploitation et signaler
-  d'autres prérequis.
-- Pour proposer des en-têtes plus utiles.
-- Pour tout autre amélioration.
-
-Merci !
+- tester le script sur tout système d'exploitation et signaler
+  d'autres prérequis ;
+- proposer des en-têtes plus utiles ;
+- tout autre amélioration.
 
 * Licence
 
