@@ -88,12 +88,7 @@ Avec une distribution [[https://www.debian.org/][Debian]] ou dérivée :
 Le script demande deux variables d'environnement:
 
 - =GITHUB_USER= : votre nom d'utilisateur Github
-- =GITHUB_PASSWORD= : votre mot de passe Github
-
-Vous devrez temporairement désactiver l'authentification en deux
-facteurs de votre compte.  Si vous voulez éviter cette désactivation,
-vous pouvez modifier le script pour supprimer =--user $credentials=,
-mais les appels à l'API de Github seront plus limités.
+- =GITHUB_TOKEN= : un token personnel Github ([[https://github.com/settings/tokens][en créer un]])
 
 Pour tester le script :
 

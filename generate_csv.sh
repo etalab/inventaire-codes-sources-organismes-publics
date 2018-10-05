@@ -20,7 +20,7 @@ champs_repo_csv="Nom,Organisation,URL,Description,Fork?,Créé,Mis à jour\
 
 jq_repo_exp='[.[] | ['$champs_repo_json']]'
 
-credentials=$GITHUB_USER:$GITHUB_PASSWORD
+credentials=$GITHUB_USER:$GITHUB_TOKEN
 
 ########################################################################
 # Prepare repositories
@@ -41,7 +41,7 @@ mkdir -p tmp; rm tmp/*
 
 # Read organisations/organismes_publics.txt and output owner info as csv
 while read line; do
-    curl --user $credentials -s https://api.github.com/users/$line \
+    curl -u $credentials -s https://api.github.com/users/$line \
 	| jq "$jq_owner_exp" | jq -r '.[] | @csv' > tmp/$line.csv
 done < organisations/organismes_publics.txt
 
@@ -53,7 +53,7 @@ mkdir -p tmp; rm tmp/*
 
 # Read organisations/organismes_publics.txt and output repositories as csv
 while read line; do
-    curl --user $credentials -s https://api.github.com/orgs/$line/repos?per_page=200 \
+    curl -u $credentials -s https://api.github.com/orgs/$line/repos?per_page=200 \
 	| jq "$jq_repo_exp" | jq -r '.[] | @csv' > tmp/$line.csv
     cat tmp/$line.csv >> tmp/all_repositories.csv
     echo $champs_repo_csv | cat - tmp/$line.csv > repositories/$line.csv
