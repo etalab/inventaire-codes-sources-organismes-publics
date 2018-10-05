@@ -95,8 +95,10 @@ facteurs de votre compte.  Si vous voulez éviter cette désactivation,
 vous pouvez modifier le script pour supprimer =--user $credentials=,
 mais les appels à l'API de Github seront plus limités.
 
-Pour lancer le script
+Pour tester le script :
 
+: ~$ git clone https://github.com/etalab/inventaire-codes-sources-organismes-publics.git
+: ~$ cd inventaire-codes-sources-organismes-publics/
 : ~$ ./generate_csv.sh
 
 Le script va alors créer les répertoires =organisations= et =repositories=
