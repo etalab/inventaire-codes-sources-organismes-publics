@@ -1,0 +1,127 @@
+#+title: Inventaire des dépôts publiés par les collectivités
+
+* But du dépôt
+
+Le but de ce dépôt est de donner de la visibilité à l'ensemble des
+dépôts publiés par les comptes d'organisation d'organismes publics.
+
+Ne sont pour l'instant traités que les comptes présents sur Github.
+Les comptes présents sur d'autres plates-formes (par ex. Gitlab)
+pourront être intégrés dans un second temps.
+
+Pour ajouter le compte d'organisation de votre organisme, vous pouvez
+proposer de modifier [[https://github.com/DISIC/politique-de-contribution-open-source/blob/master/OrgAccounts][le fichier]] pertinent dans le dépôt de la DINSIC
+relatif à la Politique de Contribution Open Source de l'État.
+
+Si votre compte est sur Github, vous pouvez aussi l'ajouter à la liste
+des comptes figurant sur [[https://government.github.com/community/][cette page]].
+
+** Évolutions possibles
+
+Il est prévu de faire évoluer la collecte de ces informations en
+l'automatisant, en stockant les données dans une base de données
+et en proposant une interface web pour les parcourir.
+
+* Contenu du dépôt
+
+- un script collectant la liste des comptes d'organisation des
+  organismes publics présents sur [[https://government.github.com/community/][cette page github]] ;
+
+- les fichiers =.csv= générés par ce script :
+  - =organisations/comptes-organismes-publics.csv=
+  - =repositories/all_repositories.csv=
+  - =[compte-organisation].csv= pour chaque organisme
+
+* Liens vers une version web des principaux fichiers =.csv=
+
+- La liste des [[https://csv2html.eig-forever.org/794c2825-3459-499d-87be-be1370ce9b2f/index.html][comptes d'organisation des organismes publics]]
+- La liste des [[https://csv2html.eig-forever.org/ed7f179d-d1fc-4484-87d2-434c6ad84053/index.html][dépôts de codes sources de ces organismes publics]]
+
+* Structure des données collectées
+
+Pour les comptes d'organisation, voici les en-têtes du fichier =.csv=
+généré et, en regard, le propriétés du fichier =.json= récupérées via
+l'API de Github :
+
+| Champ csv   | Champ json    |
+|-------------+---------------|
+| Nom         | .login        |
+| URL         | .html_url     |
+| Blog        | .blog         |
+| Email       | .email        |
+| Description | .bio          |
+| # de dépôts | .public_repos |
+| # followers | .followers    |
+| Créé        | .created_at   |
+| Mis à jour  | .updated_at   |
+
+Voici le tableau équivalent pour les dépôts de code source :
+
+| Champ csv    | Champ json        |
+|--------------+-------------------|
+| Nom          | .name             |
+| Organisation | .owner.html_url   |
+| URL          | .html_url         |
+| Description  | .description      |
+| Fork?        | .fork             |
+| Créé         | .created_at       |
+| Mis à jour   | .updated_at       |
+| Homepage     | .homepage         |
+| # Stars      | .stargazers_count |
+| # forks      | .forks_count      |
+| Licence      | .license          |
+| Issues       | .open_issues      |
+| Langages     | .language         |
+
+* Utilisation
+
+** Prérequis
+
+Avec une distribution [[https://www.debian.org/][Debian]] ou dérivée :
+
+: ~$ sudo apt-get update
+: ~$ sudo apt-get install jq
+: ~$ sudo pip install yq
+
+** Lancement du script
+
+Le script demande deux variables d'environnement:
+
+- =GITHUB_USER= : votre nom d'utilisateur Github
+- =GITHUB_PASSWORD= : votre mot de passe Github
+
+Vous devrez temporairement désactiver l'authentification en deux
+facteurs de votre compte.  Si vous voulez éviter cette désactivation,
+vous pouvez modifier le script pour supprimer =--user $credentials=,
+mais les appels à l'API de Github seront plus limités.
+
+Pour lancer le script
+
+: ~$ ./generate_csv.sh
+
+Le script va alors créer les répertoires =organisations= et =repositories=
+et y ajouter les fichiers utiles.
+
+* Contribuer
+
+Vos contributions sont les bienvenues :
+
+- Pour tester le script sur tout système d'exploitation et signaler
+  d'autres prérequis.
+- Pour proposer des en-têtes plus utiles.
+- Pour tout autre amélioration.
+
+Merci !
+
+* Licence
+
+© 2018 Direction interministérielle du numérique et du système
+d'information et de communication de l'État, Bastien Guerry
+
+© 2018 Les autres contributeurs dans la liste est accessible via
+l'historique du dépôt.
+
+Les contenus publiés dans ce dépôt sont placés sous Licence Ouverte
+2.0 -- voir le fichier =LO.md= dans ce répertoire.  Vous êtes libre de
+réutiliser les contenus de ce dépôt sous les conditions précisées dans
+cette licence.
