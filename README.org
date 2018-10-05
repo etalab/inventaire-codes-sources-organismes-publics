@@ -1,4 +1,4 @@
-#+title: Inventaire des dépôts publiés par les collectivités
+#+title: Inventaire des dépôts de code source publiés par les organismes publics
 
 * But du dépôt
 
