@@ -94,7 +94,7 @@ Pour tester le script :
 
 : ~$ git clone https://github.com/etalab/inventaire-codes-sources-organismes-publics.git
 : ~$ cd inventaire-codes-sources-organismes-publics/
-: ~$ ./generate_csv.sh
+: ~$ GITHUB_USER=xxx GITHUB_TOKEN=yyy ./generate_csv.sh
 
 Le script va alors créer les répertoires =organisations= et =repositories=
 et y ajouter les fichiers utiles.
