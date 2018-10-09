@@ -83,7 +83,7 @@ Avec une distribution [[https://www.debian.org/][Debian]] ou dérivée :
 : ~$ sudo apt-get install jq
 : ~$ sudo pip install yq
 
-** Lancement du script
+** Utilisation du script
 
 Le script demande deux variables d'environnement:
 
