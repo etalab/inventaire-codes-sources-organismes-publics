@@ -109,15 +109,15 @@ request/ - quelques pistes :
 - proposer des en-têtes plus utiles ;
 - tout autre amélioration.
 
-* Licence
+* Droits d'auteur et licence
 
-© 2018 Direction interministérielle du numérique et du système
+2018 Direction interministérielle du numérique et du système
 d'information et de communication de l'État, Bastien Guerry
 
-© 2018 Les autres contributeurs dans la liste est accessible via
+2018 Les autres contributeurs dans la liste est accessible via
 l'historique du dépôt.
 
-Les contenus publiés dans ce dépôt sont placés sous Licence Ouverte
+Les contenus publiés dans ce dépôt sont publiés sous Licence Ouverte
 2.0 -- voir le fichier =LO.md= dans ce répertoire.  Vous êtes libre de
 réutiliser les contenus de ce dépôt sous les conditions précisées dans
 cette licence.
