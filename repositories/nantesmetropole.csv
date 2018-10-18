@@ -1,4 +1,4 @@
 Nom,Organisation,URL,Description,Fork?,Créé,Mis à jour,Homepage,Stars,# forks,Licence,Issues,Langages
 "docker-debian","https://github.com/nantesmetropole","https://github.com/nantesmetropole/docker-debian","Tooling to build Debian images for Docker",false,"2016-11-23T07:57:15Z","2017-05-09T20:02:55Z","",1,0,"Apache License 2.0",0,"Shell"
 "docker-paas","https://github.com/nantesmetropole","https://github.com/nantesmetropole/docker-paas"," Tooling to build PaaS images for Docker",false,"2017-01-09T15:05:37Z","2017-06-09T12:03:09Z",,1,1,"Apache License 2.0",0,"Ruby"
-"LibreOfficeNow","https://github.com/nantesmetropole","https://github.com/nantesmetropole/LibreOfficeNow",,false,"2017-02-13T10:07:12Z","2017-07-10T15:02:23Z",,5,0,"GNU Affero General Public License v3.0",1,"PHP"
+"LibreOfficeNow","https://github.com/nantesmetropole","https://github.com/nantesmetropole/LibreOfficeNow",,false,"2017-02-13T10:07:12Z","2017-07-10T15:02:23Z",,5,1,"GNU Affero General Public License v3.0",1,"PHP"
