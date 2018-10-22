@@ -5,15 +5,15 @@
 Le but de ce dépôt est de donner de la visibilité à l'ensemble des
 dépôts publiés par les comptes d'organisation d'organismes publics.
 
-Ne sont pour l'instant traités que les comptes présents sur Github.
-Les comptes présents sur d'autres plates-formes (par ex. Gitlab)
+Ne sont pour l'instant traités que les comptes présents sur GitHub.
+Les comptes présents sur d'autres plates-formes (par ex. GitLab)
 pourront être intégrés dans un second temps.
 
 Pour ajouter le compte d'organisation de votre organisme, vous pouvez
 proposer de modifier [[https://github.com/DISIC/politique-de-contribution-open-source/blob/master/OrgAccounts][le fichier]] pertinent dans le dépôt de la DINSIC
 relatif à la Politique de Contribution Open Source de l'État.
 
-Si votre compte est sur Github, vous pouvez aussi l'ajouter à la liste
+Si votre compte est sur GitHub, vous pouvez aussi l'ajouter à la liste
 des comptes figurant sur [[https://government.github.com/community/][cette page]].
 
 ** Évolutions possibles
@@ -25,7 +25,7 @@ et en proposant une interface web pour les parcourir.
 * Contenu du dépôt
 
 - un script collectant la liste des comptes d'organisation des
-  organismes publics présents sur [[https://government.github.com/community/][cette page github]] ;
+  organismes publics présents sur [[https://government.github.com/community/][cette page GitHub]] ;
 
 - les fichiers =.csv= générés par ce script :
   - =organisations/comptes-organismes-publics.csv=
@@ -41,7 +41,7 @@ et en proposant une interface web pour les parcourir.
 
 Pour les comptes d'organisation, voici les en-têtes du fichier =.csv=
 généré et, en regard, le propriétés du fichier =.json= récupérées via
-l'API de Github :
+l'API de GitHub :
 
 | Champ csv   | Champ json    |
 |-------------+---------------|
@@ -87,8 +87,8 @@ Avec une distribution [[https://www.debian.org/][Debian]] ou dérivée :
 
 Le script demande deux variables d'environnement:
 
-- =GITHUB_USER= : votre nom d'utilisateur Github
-- =GITHUB_TOKEN= : un token personnel Github ([[https://github.com/settings/tokens][en créer un]])
+- =GITHUB_USER= : votre nom d'utilisateur GitHub
+- =GITHUB_TOKEN= : un token personnel GitHub ([[https://github.com/settings/tokens][en créer un]])
 
 Pour tester le script :
 
