@@ -1,0 +1,13 @@
+Nom,Organisation,URL,Description,Fork?,Créé,Mis à jour,Homepage,Stars,# forks,Licence,Issues,Langages
+"daobs","https://github.com/BRGM","https://github.com/BRGM/daobs","Data analyzer and observer",true,"2016-05-10T11:26:11Z","2016-05-10T11:26:14Z",,0,1,"Other",0,"JavaScript"
+"gml_application_schema_toolbox","https://github.com/BRGM","https://github.com/BRGM/gml_application_schema_toolbox","GML Application Schema toolbox is a QGIS plugin allowing to manipulate OGC Complex Features",false,"2016-06-21T12:07:30Z","2018-09-21T07:43:17Z","",9,8,,24,"Python"
+"core-geonetwork","https://github.com/BRGM","https://github.com/BRGM/core-geonetwork","GeoNetwork repository",true,"2016-12-01T11:30:58Z","2016-12-01T11:31:16Z","http://geonetwork-opensource.org/",0,0,,0,"JavaScript"
+"external_file","https://github.com/BRGM","https://github.com/BRGM/external_file","Allow access to ""external files"" from PostgreSQL server file systems.",true,"2017-02-08T15:43:11Z","2017-02-08T15:43:13Z",,0,0,"Other",0,"PLpgSQL"
+"razorback","https://github.com/BRGM","https://github.com/BRGM/razorback","An open source python library for magnetotelluric robust processing.",false,"2017-09-27T12:25:41Z","2018-10-15T03:21:20Z","http://razorback.readthedocs.io",6,3,"GNU General Public License v3.0",0,"Python"
+"GeoSciMLontology","https://github.com/BRGM","https://github.com/BRGM/GeoSciMLontology",,false,"2018-01-19T15:44:54Z","2018-01-19T15:44:54Z",,0,0,,0,
+"GeoSciML","https://github.com/BRGM","https://github.com/BRGM/GeoSciML","Public repo for GeoSciML.  Joint development working on RDF encoding for two specs (GWML and GeoSciML) ",true,"2018-01-30T13:46:32Z","2018-01-30T13:31:38Z",,0,0,,0,
+"gmlib","https://github.com/BRGM","https://github.com/BRGM/gmlib",,false,"2018-02-07T08:16:57Z","2018-02-07T08:16:57Z",,0,0,"GNU Affero General Public License v3.0",0,
+"Nifi-WKB-to-WKT-processor","https://github.com/BRGM","https://github.com/BRGM/Nifi-WKB-to-WKT-processor","A simple processor to transform WKB field in flowfile content to WKT in flowfile attribute.",false,"2018-03-15T13:38:19Z","2018-03-30T08:13:13Z",,0,0,"MIT License",0,"Java"
+"BLiv","https://github.com/BRGM","https://github.com/BRGM/BLiv","BRGM Linkeddata Viewer",false,"2018-03-19T17:20:09Z","2018-04-03T09:15:09Z",,0,0,,1,"JavaScript"
+"hubeau","https://github.com/BRGM","https://github.com/BRGM/hubeau","Hub'Eau, la plateforme pour manipuler facilement les données ouvertes sur l'eau",false,"2018-05-17T08:45:13Z","2018-10-25T16:04:57Z",,4,0,,7,"Jupyter Notebook"
+"cgal","https://github.com/BRGM","https://github.com/BRGM/cgal","The public CGAL repository, see the README below",true,"2018-10-05T09:57:58Z","2018-10-05T09:58:41Z","https://github.com/CGAL/cgal#readme",0,0,"Other",0,"C++"
