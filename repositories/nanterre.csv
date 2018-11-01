@@ -6,3 +6,4 @@ Nom,Organisation,URL,Description,Fork?,Créé,Mis à jour,Homepage,Stars,# forks
 "donnees-a-voir","https://github.com/nanterre","https://github.com/nanterre/donnees-a-voir","Documentation ""Données à voir"" La Terrasse Nanterre 2016",true,"2016-09-05T13:55:57Z","2016-09-02T12:45:00Z",,0,1,"GNU General Public License v3.0",0,
 "nanterre.github.io","https://github.com/nanterre","https://github.com/nanterre/nanterre.github.io",,false,"2016-09-14T15:15:27Z","2016-09-14T15:25:31Z",,0,1,,0,"HTML"
 "donneesavoir","https://github.com/nanterre","https://github.com/nanterre/donneesavoir",,true,"2016-09-28T16:47:27Z","2016-09-28T16:47:38Z",,0,0,"MIT License",0,"CSS"
+"decidim","https://github.com/nanterre","https://github.com/nanterre/decidim","The participatory democracy framework. A generator and multiple gems made with Ruby on Rails. ",true,"2018-10-24T21:42:18Z","2018-10-24T21:42:29Z","http://www.decidim.org",0,0,"GNU Affero General Public License v3.0",0,"Ruby"

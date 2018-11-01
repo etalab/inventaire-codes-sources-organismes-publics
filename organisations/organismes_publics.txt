@@ -3,6 +3,8 @@ AlsaceDigitale
 ANSSI-FR
 ApieFrance
 betagouv
+clipos
+clipos-archive
 communaute-cimi
 culturecommunication
 DGFiP
@@ -25,3 +27,4 @@ region-bretagne
 sgmap-agd
 SocialGouv
 strasbourg
+wookey-project
