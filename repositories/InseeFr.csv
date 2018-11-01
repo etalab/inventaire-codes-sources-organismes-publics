@@ -1,0 +1,16 @@
+Nom,Organisation,URL,Description,Fork?,Créé,Mis à jour,Homepage,Stars,# forks,Licence,Issues,Langages
+"Pogues","https://github.com/InseeFr","https://github.com/InseeFr/Pogues","PoC for a questionnaire design and test tool",false,"2015-03-02T18:33:41Z","2018-08-24T11:09:53Z",,11,3,"MIT License",21,"JavaScript"
+"Pogues-Model","https://github.com/InseeFr","https://github.com/InseeFr/Pogues-Model","Classes and converters for the Pogues data model",false,"2015-05-27T06:21:11Z","2018-08-09T14:07:43Z",,1,2,,7,"Java"
+"Ontologies","https://github.com/InseeFr","https://github.com/InseeFr/Ontologies","Vocabulaires RDF de l'INSE",false,"2016-01-09T18:29:57Z","2018-04-26T14:50:17Z","",0,0,,0,
+"Eno","https://github.com/InseeFr","https://github.com/InseeFr/Eno","Questionnaire generator",false,"2016-07-26T08:44:54Z","2018-10-29T10:07:00Z",,7,13,"MIT License",39,"XSLT"
+"Metadata-API","https://github.com/InseeFr","https://github.com/InseeFr/Metadata-API","An API specification for accessing statistical metadata",false,"2016-09-02T12:59:10Z","2018-08-13T15:03:56Z","",0,1,"MIT License",0,"Java"
+"CSPA-SA-Client","https://github.com/InseeFr","https://github.com/InseeFr/CSPA-SA-Client","Web client for the CSPA Time Series Service",true,"2016-10-07T07:48:35Z","2016-10-07T08:27:58Z","",0,0,,0,"JavaScript"
+"Eno-WS","https://github.com/InseeFr","https://github.com/InseeFr/Eno-WS",,false,"2016-11-10T14:00:27Z","2018-10-30T15:29:53Z",,0,2,,0,"Java"
+"Eno-CLI","https://github.com/InseeFr","https://github.com/InseeFr/Eno-CLI","Command-line interface for Eno",false,"2017-03-14T15:12:07Z","2017-03-15T10:42:27Z",,0,0,,0,"Java"
+"Pogues-Back-Office","https://github.com/InseeFr","https://github.com/InseeFr/Pogues-Back-Office","Back-office services for Pogues",false,"2017-04-20T12:08:12Z","2018-10-30T10:52:53Z","",0,3,"MIT License",0,"HTML"
+"DDI-Access-Services","https://github.com/InseeFr","https://github.com/InseeFr/DDI-Access-Services","Web services for accessing DDI metadata in Colectica",false,"2017-10-04T07:06:52Z","2017-10-09T08:41:45Z",,0,4,"MIT License",1,"Java"
+"Bauhaus","https://github.com/InseeFr","https://github.com/InseeFr/Bauhaus","Web application for the management of concepts, classifications and other statistical objects",false,"2018-03-23T12:12:41Z","2018-10-29T10:22:07Z",,0,3,"MIT License",0,"JavaScript"
+"Bauhaus-Back-Office","https://github.com/InseeFr","https://github.com/InseeFr/Bauhaus-Back-Office","Back-office services for Bauhaus",false,"2018-03-23T12:15:50Z","2018-10-29T09:29:32Z",,0,3,"MIT License",0,"Java"
+"Destinie-2","https://github.com/InseeFr","https://github.com/InseeFr/Destinie-2","Modèle de microsimulation dynamique",false,"2018-07-04T08:23:34Z","2018-10-10T08:33:50Z",,2,0,"GNU General Public License v3.0",0,"C++"
+"Mesange","https://github.com/InseeFr","https://github.com/InseeFr/Mesange","Modèle macro-économique Mésange",false,"2018-08-29T07:10:48Z","2018-09-21T22:19:13Z",,6,2,"Other",0,
+"Meleze","https://github.com/InseeFr","https://github.com/InseeFr/Meleze","Modèle macro-économique Mélèze",false,"2018-08-29T07:11:26Z","2018-08-29T07:11:26Z",,0,0,,0,

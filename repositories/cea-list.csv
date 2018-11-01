@@ -1,0 +1,6 @@
+Nom,Organisation,URL,Description,Fork?,Créé,Mis à jour,Homepage,Stars,# forks,Licence,Issues,Langages
+"N2D2","https://github.com/CEA-LIST","https://github.com/CEA-LIST/N2D2","N2D2 is a open source CAD framework for Deep Neural Network simulation and full DNN-based applications building.",false,"2017-01-06T13:01:02Z","2018-10-24T07:48:42Z","",38,12,"Other",5,"C++"
+"DAHLIA-BodyIndex","https://github.com/CEA-LIST","https://github.com/CEA-LIST/DAHLIA-BodyIndex","DAHLIA-BodyIndex is a decoder for binary Body Index files from the DAHLIA dataset",false,"2017-05-16T11:53:25Z","2017-05-23T11:01:29Z","http://www-mobilemii.cea.fr",0,0,,0,"C++"
+"Cingulata","https://github.com/CEA-LIST","https://github.com/CEA-LIST/Cingulata","Cingulata (pronounced ""tchingulata"") is a compiler toolchain and RTE for running C++ programs over encrypted data by means of fully homomorphic encryption techniques.",false,"2017-11-14T14:42:36Z","2018-10-29T14:42:26Z","",47,11,"Other",3,"C++"
+"sgntx","https://github.com/CEA-LIST","https://github.com/CEA-LIST/sgntx","iDASH 2017 competition, track 2 winning team solution",false,"2018-07-13T14:11:16Z","2018-10-16T17:42:41Z",,1,0,,0,
+"CinguParam","https://github.com/CEA-LIST","https://github.com/CEA-LIST/CinguParam",,false,"2018-09-10T13:49:35Z","2018-09-10T13:49:37Z",,0,0,,0,

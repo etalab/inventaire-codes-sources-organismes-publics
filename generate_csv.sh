@@ -27,17 +27,24 @@ credentials=$GITHUB_USER:$GITHUB_TOKEN
 #
 rm -fr organisations repositories
 mkdir organisations repositories
+# Delete temporary files
+mkdir -p tmp; rm tmp/* 2>/dev/null
 
 ########################################################################
-#
-# Collect french organisations as listed on https://government.github.com/community/
-curl https://raw.githubusercontent.com/github/government.github.com/gh-pages/_data/governments.yml | yq .France[] > organisations/organismes_publics.txt
+# Collect french organisations as listed on
+# https://government.github.com/community/
+curl https://raw.githubusercontent.com/github/government.github.com/gh-pages/_data/governments.yml | yq .France[] | sed -e 's/^"//' -e 's/"$//' | sort -u > tmp/organismes_publics1.txt
 
-# Trim quotes in organisations/organismes_publics.txt
-sed -i -e 's/^"//' -e 's/"$//' organisations/organismes_publics.txt
+# Add those listed on
+# https://github.com/DISIC/politique-de-contribution-open-source, only
+# if they are not already listed in the previous list (case
+# insensitive comparison)
+curl https://raw.githubusercontent.com/DISIC/politique-de-contribution-open-source/master/OrgAccounts | awk -F / '$3 == "github.com" {print $4}' | while read org; do
+    grep -qi "^$org\$" tmp/organismes_publics1.txt || echo "$org"
+done > tmp/organismes_publics2.txt
 
-# Delete temporary files
-mkdir -p tmp; rm tmp/*
+# Create the list
+sort -u tmp/organismes_publics{1,2}.txt > organisations/organismes_publics.txt
 
 # Read organisations/organismes_publics.txt and output owner info as csv
 while read line; do

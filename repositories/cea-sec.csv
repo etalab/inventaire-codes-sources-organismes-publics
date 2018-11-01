@@ -1,0 +1,6 @@
+Nom,Organisation,URL,Description,Fork?,Créé,Mis à jour,Homepage,Stars,# forks,Licence,Issues,Langages
+"TorPylle","https://github.com/cea-sec","https://github.com/cea-sec/TorPylle","A Python / Scapy implementation of the OR (TOR) protocol.",false,"2013-07-23T11:38:39Z","2018-10-14T06:47:47Z",,69,16,"GNU General Public License v2.0",0,"Python"
+"Sibyl","https://github.com/cea-sec","https://github.com/cea-sec/Sibyl","A Miasm2 based function divination.",false,"2014-09-05T16:26:33Z","2018-10-31T20:26:59Z",,270,27,"GNU General Public License v3.0",7,"Python"
+"ivre","https://github.com/cea-sec","https://github.com/cea-sec/ivre","Network recon framework.",false,"2014-09-12T13:34:56Z","2018-11-01T18:54:31Z","https://ivre.rocks/",1283,360,"GNU General Public License v3.0",18,"Python"
+"miasm","https://github.com/cea-sec","https://github.com/cea-sec/miasm","Reverse engineering framework in Python",false,"2014-10-28T15:05:47Z","2018-11-01T16:44:37Z",,1477,247,"GNU General Public License v2.0",61,"Python"
+"hairgap","https://github.com/cea-sec","https://github.com/cea-sec/hairgap","A set of tools to transfer data over a unidirectional network link (typically a network diode).",false,"2017-04-02T21:19:34Z","2018-10-22T19:34:58Z",,14,6,"GNU General Public License v3.0",0,"C"
