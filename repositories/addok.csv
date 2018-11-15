@@ -1,8 +1,8 @@
 Nom,Organisation,URL,Description,Fork?,Créé,Mis à jour,Homepage,Stars,# forks,Licence,Issues,Langages
-"addok","https://github.com/addok","https://github.com/addok/addok","Search engine for address. Only address.",false,"2014-12-29T21:07:46Z","2018-09-20T13:40:58Z","http://addok.readthedocs.org/",138,34,"Do What The F*ck You Want To Public License",80,"Python"
+"addok","https://github.com/addok","https://github.com/addok/addok","Search engine for address. Only address.",false,"2014-12-29T21:07:46Z","2018-11-13T13:48:30Z","http://addok.readthedocs.org/",141,34,"Do What The F*ck You Want To Public License",80,"Python"
 "addok-france","https://github.com/addok","https://github.com/addok/addok-france","Addok plugin for France addresses",false,"2016-01-12T10:43:31Z","2018-08-23T11:29:00Z",,3,3,,3,"Python"
 "addok-fr","https://github.com/addok","https://github.com/addok/addok-fr","Addok plugin for addresses in French language",false,"2016-01-12T14:43:55Z","2018-08-23T11:28:52Z",,3,3,,1,"Python"
-"addok-csv","https://github.com/addok","https://github.com/addok/addok-csv","Addok plugin for handling CSV files",false,"2016-01-12T14:50:57Z","2016-11-01T09:38:10Z",,0,1,,0,"Python"
+"addok-csv","https://github.com/addok","https://github.com/addok/addok-csv","Addok plugin for handling CSV files",false,"2016-01-12T14:50:57Z","2018-11-08T09:01:09Z",,1,1,,0,"Python"
 "addok-psql","https://github.com/addok","https://github.com/addok/addok-psql","Import from PostgreSQL in addok",false,"2016-01-12T17:07:00Z","2016-04-26T17:36:49Z",,0,0,,0,"Python"
 "addok-trigrams","https://github.com/addok","https://github.com/addok/addok-trigrams","Trigrams based index for Addok.",false,"2016-01-26T09:53:23Z","2018-07-19T09:14:49Z",,0,1,,0,"Python"
 "addok-geozones","https://github.com/addok","https://github.com/addok/addok-geozones","Helpers to run a Geozones dedicated Addok instance.",false,"2016-05-30T10:05:49Z","2018-07-24T10:53:03Z",,1,0,,1,"Python"

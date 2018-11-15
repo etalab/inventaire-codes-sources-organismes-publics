@@ -1,5 +1,5 @@
 Nom,Organisation,URL,Description,Fork?,Créé,Mis à jour,Homepage,Stars,# forks,Licence,Issues,Langages
-"Pogues","https://github.com/InseeFr","https://github.com/InseeFr/Pogues","PoC for a questionnaire design and test tool",false,"2015-03-02T18:33:41Z","2018-08-24T11:09:53Z",,11,3,"MIT License",21,"JavaScript"
+"Pogues","https://github.com/InseeFr","https://github.com/InseeFr/Pogues","PoC for a questionnaire design and test tool",false,"2015-03-02T18:33:41Z","2018-08-24T11:09:53Z",,11,3,"MIT License",22,"JavaScript"
 "Pogues-Model","https://github.com/InseeFr","https://github.com/InseeFr/Pogues-Model","Classes and converters for the Pogues data model",false,"2015-05-27T06:21:11Z","2018-08-09T14:07:43Z",,1,2,,7,"Java"
 "Ontologies","https://github.com/InseeFr","https://github.com/InseeFr/Ontologies","Vocabulaires RDF de l'INSE",false,"2016-01-09T18:29:57Z","2018-04-26T14:50:17Z","",0,0,,0,
 "Eno","https://github.com/InseeFr","https://github.com/InseeFr/Eno","Questionnaire generator",false,"2016-07-26T08:44:54Z","2018-10-29T10:07:00Z",,7,13,"MIT License",39,"XSLT"
