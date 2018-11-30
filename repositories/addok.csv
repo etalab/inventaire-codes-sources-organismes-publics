@@ -1,5 +1,5 @@
 Nom,Organisation,URL,Description,Fork?,Créé,Mis à jour,Homepage,Stars,# forks,Licence,Issues,Langages
-"addok","https://github.com/addok","https://github.com/addok/addok","Search engine for address. Only address.",false,"2014-12-29T21:07:46Z","2018-11-13T13:48:30Z","http://addok.readthedocs.org/",141,34,"Do What The F*ck You Want To Public License",80,"Python"
+"addok","https://github.com/addok","https://github.com/addok/addok","Search engine for address. Only address.",false,"2014-12-29T21:07:46Z","2018-11-22T14:18:12Z","http://addok.readthedocs.org/",142,34,"Do What The F*ck You Want To Public License",83,"Python"
 "addok-france","https://github.com/addok","https://github.com/addok/addok-france","Addok plugin for France addresses",false,"2016-01-12T10:43:31Z","2018-08-23T11:29:00Z",,3,3,,3,"Python"
 "addok-fr","https://github.com/addok","https://github.com/addok/addok-fr","Addok plugin for addresses in French language",false,"2016-01-12T14:43:55Z","2018-08-23T11:28:52Z",,3,3,,1,"Python"
 "addok-csv","https://github.com/addok","https://github.com/addok/addok-csv","Addok plugin for handling CSV files",false,"2016-01-12T14:50:57Z","2018-11-08T09:01:09Z",,1,1,,0,"Python"
