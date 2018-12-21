@@ -1,4 +1,3 @@
-addok
 afimb
 AlsaceDigitale
 ANSSI-FR
@@ -18,6 +17,7 @@ DGFiP
 DGTresor
 diplomatiegouvfr
 disic
+DREAL-NA
 entrepreneur-interet-general
 erasme
 etalab
@@ -25,6 +25,7 @@ IGNF
 Inist-CNRS
 InseeFr
 INSIDE-information-systems
+LINCnil
 lutece-secteur-public
 MINAGRI-INITIAL
 MinistereSupRecherche
@@ -36,6 +37,9 @@ observatoire-territoires
 opendatateam
 openfisca
 openfun
+PnCevennes
+PnEcrins
+PnX-SI
 polewebmaedi
 ProgrammeVitam
 region-bretagne
