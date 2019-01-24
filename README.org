@@ -1,5 +1,17 @@
 #+title: Inventaire des dépôts de code source publiés par les organismes publics
 
+* Maintenance (obsolète)
+
+Ce dépôt n'est plus maintenu.  Il est remplacé par
+[[https://github.com/etalab/data-codes-sources-fr][data-codes-sources-fr]], sur lequel vos contributions sont les
+bienvenues.
+
+Si vous êtes un organisme public, vous pouvez aussi ajouter votre
+compte d'organisation Github en faisant une /pull request/ de mise à
+jour de [[https://github.com/DISIC/politique-de-contribution-open-source/blob/master/OrgAccounts][ce fichier]].
+
+Le contenu ci-dessous est laissé à titre d'archivage.
+
 * But du dépôt
 
 Le but de ce dépôt est de donner de la visibilité à l'ensemble des
